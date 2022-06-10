@@ -1,0 +1,224 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+    border-radius: 1em;
+    box-sizing: border-box;
+}
+
+.header_heading{
+    font-size: 25px;
+    color: rgb(10, 10, 10);
+}
+
+.header_nav{
+    width: 20%;
+}
+
+.header_menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: red;
+}
+
+.header_menu_li:nth-child(even){
+    color: black;
+}
+
+.main{
+    width: 100%;
+    height: 90%;
+    padding: 1em;
+    box-sizing: border-box;   
+}
+
+.main_profile_info_block{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profile_info{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_photo{
+    width: 100%;
+    height: 100%;
+}
+
+.profile_username{
+    font-size: 20px;
+    margin: 0;
+   
+}
+
+.profile_description{
+width: 50%;
+height: 50%;
+border: 1px solid gray;
+box-sizing: border-box;
+padding: .5em 1em;
+}
+
+.profile_descr_text{
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+}
+
+.fahhrad_profile_info_block{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fahhrad_photo{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.fahhrad_description{
+    width: 50%;
+    height: 50%;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    padding: .5em 1em;
+}
+
+.books_profile_info_block{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.books_photo{
+    width: 80%;
+    height: 80%;
+    
+}
+
+.books_description{
+    width: 50%;
+    height: 50%;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    padding: .5em 1em;
+}
+
+.game_profile_info_block{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    
+.game_photo{
+    width: 50%;
+    height: 50%;
+}        
+    
+    
+.game_description{
+    width: 50%;
+    height: 50%;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    padding: .5em 1em;
+}
+
+.Unabhängigkeit_profile_info_block{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Unabhängigkeit_photo{
+    width: 70%;
+    height: 70%;
+    
+}
+
+.Unabhängigkeit_description{
+    width: 50%;
+    height: 50%;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    padding: .5em 1em;
+}
+
+.Gerechtigkeit_profile_info_block{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.Gerechtigkeit_photo{
+    width: 75%;
+    height: 75%;
+    
+}
+
+.Gerechtigkeit_description{
+    width: 50%;
+    height: 50%;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    padding: .5em 1em;
+}
+
+.Superfähigkeiten_profile_info_block{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    
+.Superfähigkeiten_photo{
+    width: 50%;
+    height: 50%;
+}        
+    
+    
+.Superfähigkeiten_description{
+    width: 50%;
+    height: 50%;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    padding: .5em 1em;
+}
